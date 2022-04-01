@@ -17,12 +17,26 @@ public class MyRouteBuilder extends RouteBuilder {
         // then performs content based routing on the message using XPath
         from("file:src/data?noop=true")
                 .choice()
-                .when(xpath("/person/city = 'London'"))
-                .log("UK message")
-                .to("file:target/messages/uk")
+
+                .when(xpath("/Order/CustomerID = 'GREAL'"))
+                .log("GREAL message")
+                .to("file:target/messages/GREAL")
+
+                .when(xpath("/Order/CustomerID = 'HUNGC'"))
+                .log("HUNGC message")
+                .to("file:target/messages/HUNGC")
+
+                .when(xpath("/Order/CustomerID = 'LAZYK'"))
+                .log("LAZYK message")
+                .to("file:target/messages/LAZYK")
+
+                .when(xpath("/Order/CustomerID = 'LETSS'"))
+                .log("LETSS message")
+                .to("file:target/messages/LETSS")
+
                 .otherwise()
                 .log("Other message")
-                .to("file:target/messages/others");
+                .to("file:target/messages/other");
     }
 
 }
