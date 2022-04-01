@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order>
+    <CustomerID>GREAL</CustomerID>
+    <EmployeeID>3</EmployeeID>
+    <OrderDate>1998-04-07T00:00:00</OrderDate>
+    <RequiredDate>1998-05-05T00:00:00</RequiredDate>
+    <ShipInfo ShippedDate="1998-04-15T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>25.19</Freight>
+        <ShipName>Great Lakes Food Market</ShipName>
+        <ShipAddress>2732 Baker Blvd.</ShipAddress>
+        <ShipCity>Eugene</ShipCity>
+        <ShipRegion>OR</ShipRegion>
+        <ShipPostalCode>97403</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+    </ShipInfo>
+</Order>  

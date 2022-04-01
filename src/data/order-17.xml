@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order>
+    <CustomerID>LAZYK</CustomerID>
+    <EmployeeID>8</EmployeeID>
+    <OrderDate>1997-05-22T00:00:00</OrderDate>
+    <RequiredDate>1997-06-19T00:00:00</RequiredDate>
+    <ShipInfo ShippedDate="1997-06-26T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>11.92</Freight>
+        <ShipName>Lazy K Kountry Store</ShipName>
+        <ShipAddress>12 Orchestra Terrace</ShipAddress>
+        <ShipCity>Walla Walla</ShipCity>
+        <ShipRegion>WA</ShipRegion>
+        <ShipPostalCode>99362</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+    </ShipInfo>
+</Order> 

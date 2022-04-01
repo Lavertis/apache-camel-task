@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order>
+    <CustomerID>LETSS</CustomerID>
+    <EmployeeID>1</EmployeeID>
+    <OrderDate>1997-06-25T00:00:00</OrderDate>
+    <RequiredDate>1997-07-23T00:00:00</RequiredDate>
+    <ShipInfo ShippedDate="1997-07-04T00:00:00">
+        <ShipVia>2</ShipVia>
+        <Freight>13.73</Freight>
+        <ShipName>Let's Stop N Shop</ShipName>
+        <ShipAddress>87 Polk St. Suite 5</ShipAddress>
+        <ShipCity>San Francisco</ShipCity>
+        <ShipRegion>CA</ShipRegion>
+        <ShipPostalCode>94117</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+    </ShipInfo>
+</Order> 

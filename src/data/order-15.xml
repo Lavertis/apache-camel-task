@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order>
+    <CustomerID>HUNGC</CustomerID>
+    <EmployeeID>8</EmployeeID>
+    <OrderDate>1997-09-08T00:00:00</OrderDate>
+    <RequiredDate>1997-10-06T00:00:00</RequiredDate>
+    <ShipInfo ShippedDate="1997-10-15T00:00:00">
+        <ShipVia>1</ShipVia>
+        <Freight>111.29</Freight>
+        <ShipName>Hungry Coyote Import Store</ShipName>
+        <ShipAddress>City Center Plaza 516 Main St.</ShipAddress>
+        <ShipCity>Elgin</ShipCity>
+        <ShipRegion>OR</ShipRegion>
+        <ShipPostalCode>97827</ShipPostalCode>
+        <ShipCountry>USA</ShipCountry>
+    </ShipInfo>
+</Order>  
